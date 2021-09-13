@@ -6,9 +6,5 @@
         "Java",
         "Kotlin",
         "Gradle"
-    ],
-    "filePatterns": [
-        "gradlew$",
-        "^Dockerfile"
     ]
 }
