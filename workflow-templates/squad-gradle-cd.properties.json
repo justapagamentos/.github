@@ -1,0 +1,14 @@
+{
+    "name": "Workflow projetos Gradle Justa",
+    "description": "Workflow para projetos Gradle em Java ou Kotlin.",
+    "iconName": "box",
+    "categories": [
+        "Java",
+        "Kotlin",
+        "Gradle"
+    ],
+    "filePatterns": [
+        "gradlew$",
+        "^Dockerfile"
+    ]
+}
