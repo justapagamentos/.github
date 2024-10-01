@@ -68,8 +68,8 @@ jobs:
         if: contains(steps.get_version.outputs.VERSION, 'rc')
         uses: aws-actions/configure-aws-credentials@v1
         with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID_SAUTER_STG }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY_SAUTER_STG }}
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_STAGING }}
+          aws-secret-access-key: ${{ secrets.AWS_ACCESS_SECRET_STAGING }}
           aws-region: ${{ secrets.AWS_STG_REGION }}
 
       - name: Checkout k8s manifest
